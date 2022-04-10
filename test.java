@@ -1,8 +1,8 @@
-package explore_java;
+// package explore_java;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class test {
     static void displayWelcomMessage(){
         String message = "Welcome to calc \n enter your equationo below in the format \n Value1 operation value2";
         System.out.println(message);
@@ -37,8 +37,6 @@ public class Calculator {
         decision = scanner.next();
 
     }while(decision.toLowerCase().equals("y"));
-
-
 
     }
     private static void invalidOp() {
